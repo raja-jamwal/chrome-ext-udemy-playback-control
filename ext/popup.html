@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 16px;
+      width: 220px;
+    }
+    h3 {
+      margin: 0 0 12px;
+      font-size: 14px;
+    }
+    button {
+      width: 100%;
+      padding: 8px;
+      font-size: 13px;
+      cursor: pointer;
+      background: #1c6ef3;
+      color: white;
+      border: none;
+      border-radius: 4px;
+    }
+    button:hover {
+      background: #1558c0;
+    }
+    .shortcuts {
+      margin-top: 12px;
+      font-size: 12px;
+      color: #555;
+      line-height: 1.8;
+    }
+  </style>
+</head>
+<body>
+  <h3>Udemy Playback Control</h3>
+  <button id="open-shortcuts">Configure Shortcuts</button>
+  <div class="shortcuts" id="shortcuts-list"></div>
+  <script src="popup.js"></script>
+</body>
+</html>

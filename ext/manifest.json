@@ -11,30 +11,31 @@
         "js": ["event_handler.js"]
       }
     ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Udemy Playback Control"
+    },
     "background": {
       "service_worker": "background.js"
     },
     "commands": {
       "seek-backward": {
         "suggested_key": {
-          "default": "Ctrl+Shift+1",
-          "mac": "Command+Shift+1"
+          "default": "Ctrl+Shift+1"
         },
         "description": "Seek Backward",
         "global": true
       },
       "play-pause": {
         "suggested_key": {
-          "default": "Ctrl+Shift+2",
-          "mac": "Command+Shift+2"
+          "default": "Ctrl+Shift+2"
         },
         "description": "Play/Pause Video",
         "global": true
       },
       "seek-forward": {
         "suggested_key": {
-          "default": "Ctrl+Shift+0",
-          "mac": "Command+Shift+0"
+          "default": "Ctrl+Shift+0"
         },
         "description": "Seek Forward",
         "global": true
