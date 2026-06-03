@@ -4,7 +4,7 @@
     "version": "1.1",
     "author": "Raja Jamwal",
     "description": "Use global keyboard shortcut to control Udemy video playback on separate monitor/tab.",
-    "permissions": ["tabs", "activeTab", "scripting", "commands"],
+    "permissions": ["tabs", "activeTab", "commands"],
     "content_scripts": [
       {
         "matches": ["*://*.udemy.com/*"],
